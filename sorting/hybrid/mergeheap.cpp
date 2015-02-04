@@ -116,7 +116,7 @@ void mergeSort(int a[], int p, int r, int x)
                 	int arr[size];
 	                for(i = p; i <= r; i++)
         	                arr[k++] = a[i];
-	                heapsort(a, size);
+	                heapsort(arr, size);
 	                k = 0;
                 	for( i = p; i <= r; i++)
                         	a[i] = arr[k++];
